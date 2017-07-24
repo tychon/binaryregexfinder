@@ -4,12 +4,12 @@
 # separate files.
 #
 # Usage:
-#     regexfind.py PATTERNFILE INPUT LENGTH OUTDIR
+#     python3 regexfind.py PATTERNFILE INPUT LENGTH OUTDIR
 #
-# PATTERNFILE a file containing the regular expression
-# INPUT the input file
-# LENGTH number of bytes after begin of pattern to extract
-# OUTDIR directory where extracted data goes
+# PATTERNFILE a file containing a regular expression
+# INPUT       the input file
+# LENGTH      number of bytes after begin of pattern to extract
+# OUTDIR      directory where extracted data goes
 
 import sys
 import re
